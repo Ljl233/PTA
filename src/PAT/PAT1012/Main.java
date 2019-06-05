@@ -87,10 +87,10 @@ public class Main {
     private static void classify4(int[] a) {
         float n = 0;
         float r = 0;
-        for (int i = 0; i < a.length; i++) {
-            if (a[i] % 5 == 3) {
+        for (int value : a) {
+            if (value % 5 == 3) {
                 n = n + 1;
-                r += a[i];
+                r += value;
             }
         }
 

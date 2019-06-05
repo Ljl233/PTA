@@ -1,4 +1,4 @@
-package PAT1007;
+package PAT.PAT1007;
 
 import java.util.ArrayList;
 import java.util.List;

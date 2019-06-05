@@ -1,4 +1,4 @@
-package PAT1005;
+package PAT.PAT1005;
 
 import java.util.*;
 
