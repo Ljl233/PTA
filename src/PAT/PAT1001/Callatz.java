@@ -1,7 +1,7 @@
 package PAT.PAT1001;
 
 import java.util.Scanner;
-
+/////运行超时
 public class Callatz {
     public static void main(String[] args) {
         int a = 0;
