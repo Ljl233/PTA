@@ -67,13 +67,24 @@ public class Main {
             default:
                 break;
         }
+        System.out.print(week + " ");
+        System.out.printf("%02d:", hour);
+        System.out.printf("%02d\n", minutes);
+//考虑等于10 的时候
         if (minutes < 10 && hour < 10) {
             System.out.print(week + " " + "0" + hour + ":" + "0" + minutes);
-        } else if (minutes > 10 && hour < 10) {
+        } else if (minutes >= 10 && hour < 10) {
             System.out.print(week + " " + "0" + hour + ":" + minutes);
-        } else if (minutes < 10 && hour > 10) {
+        } else if (minutes < 10 && hour >= 10) {
             System.out.print(week + " " + hour + ":" + "0" + minutes);
         } else System.out.print(week + " " + hour + ":" + minutes);
+
+//        System.out.print(week + " ");
+//        if (hour < 10) System.out.print("0");
+//        System.out.print(hour+":");
+//        if (minutes < 10) System.out.print("0");
+//        System.out.print(minutes);
     }
+
 
 }
