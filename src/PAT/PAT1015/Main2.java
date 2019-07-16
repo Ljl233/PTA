@@ -1,3 +1,5 @@
+package PAT.PAT1015;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.Scanner;
